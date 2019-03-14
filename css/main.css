@@ -176,7 +176,12 @@ header {
     max-height: 784px;
 }
 
-.swiper-slide::before {
+.swiper-slide {
+	width: 100%;
+    height: 100%;
+}
+
+.slider-bg::before {
 	content: '';
 	display: block;
 	position: absolute;
@@ -189,11 +194,7 @@ header {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.swiper-slide {
-	padding-left: 50px;
-	width: 100%;
-    height: 100%;
-
+.slider-bg {
 	background-image: url(../img/first-screen.jpg);
 	background-size: cover;
 	background-position: top center;
@@ -202,7 +203,6 @@ header {
 }
 
 .swiper-slide * {
-	position: relative;
 	z-index: 10;
 }
 
@@ -236,9 +236,6 @@ header {
 
 	background: #10e08b;
 }
-
-
-
 
 .header__top {
 	position: absolute;
@@ -364,13 +361,14 @@ header {
 /*--------video--------*/
 
 .video {
-	display: flex;
-	justify-content: space-between;
+	position: relative;
 	margin-left: 80px;
 }
 
 .video__cover {
-	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0px;
 	font-size: 0;
 }
 
@@ -398,6 +396,7 @@ header {
 	margin-top: -38px;
 
 	cursor: pointer;
+	z-index: 11;
 }
 
 .video__btn img:hover {
@@ -418,6 +417,11 @@ header {
 }
 
 .video__text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin: 0;
+	width: 530px;
 	padding-left: 50px;
     padding-top: 60px;
 }
@@ -454,6 +458,14 @@ header {
 
 .advantages__item:nth-child(2) {
 	margin-left: 20px;
+}
+
+.video .swiper-pagination-bullet {
+	background: #000;
+}
+
+.video .swiper-pagination-bullet-active {
+	background: #10e08b;
 }
 
 
