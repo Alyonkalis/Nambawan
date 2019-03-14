@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Nambawan</title>
@@ -15,6 +16,7 @@
 	<!-- styles -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 	<main>
 		<!-- fixed menu -->
@@ -28,24 +30,23 @@
 
 		<!-- header -->
 		<header>
-			<div class="container">
-				<div class="header__top">
-					<a class="logo" href="#"><img src="img/logo-header.png" alt="Nambawan" width="122" height="54"></a>
-					<div class="tel">
-						<a class="tel__number" href="tel:+37529 9876543">+375 29 987 65 43</a>
-						<button class="callback">Обратный звонок</button>
-					</div>
-				</div>
-				<!-- /.header__top -->
-			</div>
-			<!-- /.container -->
-
 			<!-- Swiper -->
 			<div class="swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide slider-bg">
-			        	<div class="container">
-			        		<p class="first-screen__description">Мы в Nambawan Trawel</p>
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slider-bg">
+						<div class="container swiper-height">
+
+							<div class="header__top">
+								<a class="logo" href="#"><img src="img/logo-header.png" alt="Nambawan" width="122" height="54">
+								</a>
+								<div class="tel">
+									<a class="tel__number" href="tel:+37529 9876543">+375 29 987 65 43</a>
+									<button class="callback">Обратный звонок</button>
+								</div>
+							</div>
+
+
+							<p class="first-screen__description">Мы в Nambawan Trawel</p>
 							<h1 class="first-screen__title">
 								Организуем корпоративное<br>путешествие для Ваших<br> сотрудников и клиентов
 							</h1>
@@ -62,88 +63,123 @@
 									компании;
 								</li>
 							</ul>
-			        	</div>
-			        </div>
-			        
-					<div class="swiper-slide">
-						<section class="video" id="video">
-							<div class="container video-wrapper">
-					        	<div class="video__cover">
-									<div class="video__play">
-										<a  class="video__btn" href="#">
-											<img src="img/video-btn.png" alt="play" width="76" height="76">
-										</a>
-										<p class="play__description">
-											Как это работает
-										</p>
-									</div>									
-									<img src="img/video-layer.jpg" alt="Video" width="640" height="778">
-								</div>
-								<div class="video__text">
-									<h2 class="video__title">
-										Только с нами<br> вы сможете знатно<br>угареть!
-									</h2>
-									<p class="video__description">
-										Гляньте наше чумовое видео, если не верите. Если хоти и вам такое же по итогу снимем — будет что вспомнить.
-									</p>
-									<ul class="advantages">
-										<li class="advantages__item">
-											<img src="img/icon-world.png" alt="world" width="75" height="75">
-											<p class="advantages__description">
-												Работаем в любой<br>
-												точке планеты
-											</p>
-										</li>
-										<li class="advantages__item">
-											<img src="img/icon-space.png" alt="space" width="77" height="82">
-											<p class="advantages__description">
-												Но если на Земле<br>все видели, то no problem...
-											</p>
-										</li>
-									</ul>
-								</div>
-					        </div>
-					    </section>
+
+							<a class="we-know" href="#video">Мы в этом шарим!</a>
+						</div>
+
 					</div>
 
-			    </div>
-			    <!-- Add Pagination -->
-			    <div class="swiper-pagination"></div>
-			  </div>
-			<div class="container">
-				<a class="we-know" href="#video">Мы в этом шарим!</a>
-			</div>
-			<!-- /.first-screen -->	
-		</header>
-
-		<!-- video -->
-		
-		<div class="swiper-container">
-		    <div class="swiper-wrapper">
-		        
-
+					<div class="swiper-slide video" id="video">
+						<!-- <section class="video" id="video"> -->
+						<div class="container video-wrapper">
+							<div class="video__cover">
+								<div class="video__play">
+									<a class="video__btn" href="#">
+										<img src="img/video-btn.png" alt="play" width="76" height="76">
+									</a>
+									<p class="play__description">
+										Как это работает
+									</p>
+								</div>
+								<img src="img/video-layer.jpg" alt="Video" width="640" height="778">
+							</div>
+							<div class="video__text">
+								<h2 class="video__title">
+									Только с нами<br> вы сможете знатно<br>угареть!
+								</h2>
+								<p class="video__description">
+									Гляньте наше чумовое видео, если не верите. Если хоти и вам такое же по итогу снимем — будет что вспомнить.
+								</p>
+								<ul class="advantages">
+									<li class="advantages__item">
+										<img src="img/icon-world.png" alt="world" width="75" height="75">
+										<p class="advantages__description">
+											Работаем в любой<br>
+											точке планеты
+										</p>
+									</li>
+									<li class="advantages__item">
+										<img src="img/icon-space.png" alt="space" width="77" height="82">
+										<p class="advantages__description">
+											Но если на Земле<br>все видели, то no problem...
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- </section> -->
+					</div>
+				</div>
 				<!-- Add Pagination -->
 				<div class="swiper-pagination"></div>
-				</div>			
 			</div>
-		</div>	
-			
-		
+		</header>
+
+		<section class="it-was container">
+			<h2 class="it-was__title">Как это было</h2>
+			<div class="row1">
+				<div class="row1__slider">
+					<div>
+						<img src="img/img1.jpg" alt="Mountain" width="454" height="316">
+						<p class="row1__img-text">
+							Покорили ледяные вершины<br> с командой <span>HBO</span>
+						</p>
+					</div>
+				</div>
+				<div class="row1__description">
+					<p>
+						Находим<br><span>сильные стороны</span><br>вашей команды!
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- /.it-was -->
+
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		     	<div class="swiper-slide">Slide 1</div>
+		        <div class="swiper-slide">Slide 2</div>
+		        <div class="swiper-slide">Slide 3</div>
+		        <div class="swiper-slide">Slide 4</div>
+		        <div class="swiper-slide">Slide 5</div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+		</div>
+
+
+
+
 	</main>
-	
+
 
 	<script src="js/swiper.min.js"></script>
 	<script>
-	    var swiper = new Swiper('.swiper-container', {
-	      direction: 'vertical',
-	      pagination: {
-	        el: '.swiper-pagination',
-	        clickable: true,
-	      },
-	    });
+		var swiper = new Swiper('.swiper-container', {
+			direction: 'vertical',
+			slidesPerView: 1,
+			spaceBetween: 30,
+			mousewheel: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+		});
 
-
-
-  	</script>
+		var swiper2 = new Swiper('.swiper-container2', {
+      		pagination: {
+        	el: '.swiper-pagination2',
+        	type: 'fraction',
+      		},
+      		navigation: {
+        	nextEl: '.swiper-button-next',
+        	prevEl: '.swiper-button-prev',
+      		},
+    	});
+	</script>
 </body>
+
 </html>
