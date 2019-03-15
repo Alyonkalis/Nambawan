@@ -462,7 +462,7 @@ header {
 .row1__slider::after {
   content: "Восхождение";
   margin-left: -17px;
-  margin-top: 150px;
+  margin-top: 144px;
   font-family: 'Raleway-ExtraBold';
   font-size: 11px;
   line-height: normal;
