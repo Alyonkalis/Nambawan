@@ -200,6 +200,7 @@ header {
     background-color: #ffffff;
     z-index: 15;
     min-height: 784px;
+    overflow: hidden;
 }
 
 .slider-bg * {
@@ -245,13 +246,13 @@ header {
     font-family: 'Raleway-SemiBold';
     font-size: 11px;
     text-transform: uppercase;
-    opacity: 0.7;
+    color: #bfbfc1;
     cursor: pointer;
 }
 
 .callback:hover,
 .callback:focus {
-    opacity: 1;
+    color: #ffffff;
 }
 
 .first-screen {
