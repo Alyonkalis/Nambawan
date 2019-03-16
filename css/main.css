@@ -188,8 +188,11 @@ header {
     background-color: #343138;
 }
 
-.swiper-slide * {
+.slider-bg * {
     z-index: 10;
+}
+
+.swiper-slide * {
     margin-left: 15px;
 }
 
@@ -230,6 +233,11 @@ header {
     text-transform: uppercase;
     opacity: 0.7;
     cursor: pointer;
+}
+
+.callback:hover,
+.callback:focus {
+    opacity: 1;
 }
 
 .first-screen {
@@ -415,6 +423,10 @@ header {
 
 /* --------it was--------  */
 
+.it-was {
+    margin-bottom: 135px;
+}
+
 .it-was__title {
     margin-top: 70px;
     margin-left: 95px;
@@ -428,7 +440,7 @@ header {
     width: 540px;
     margin-left: 60px;
     margin-top: 28px;
-    padding-left: 10px;
+    padding-left: 8px;
 }
 
 .swiper-wrapper {
@@ -489,6 +501,10 @@ header {
     display: flex;
 }
 
+.swiper-container2 {
+    order: 1;
+}
+
 .row__slider,
 .row__description {
     width: 50%;
@@ -544,4 +560,32 @@ header {
 
 .row__slider2::after {
     content: "Погружение";
+}
+
+/*--------footer--------*/
+
+footer {
+    padding: 70px 0;
+    margin-left: 80px;
+    color: #ffffff;
+    text-align: left;
+    background-color: #303030;
+}
+
+.block {
+    display: inline-block;
+    width: 310px;
+    margin-left: 200px;
+}
+
+.block__description {
+    font-family: 'Raleway-ExtraBold';
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.block__text {
+    font-family: 'Raleway-Light';
+    font-size: 21px;
 }
