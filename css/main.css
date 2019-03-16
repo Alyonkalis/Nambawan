@@ -188,6 +188,20 @@ header {
     background-color: #343138;
 }
 
+.slide{
+    overflow: hidden;
+    height: 100vh;
+    transition: height .5s;
+    position:relative;
+}
+
+.rest {
+    height:100vh;
+    background-color: #ffffff;
+    z-index: 15;
+    min-height: 784px;
+}
+
 .slider-bg * {
     z-index: 10;
 }
@@ -450,7 +464,7 @@ header {
 .swiper-button-prev,
 .swiper-button-next {
     top: 20px;
-    right: 0;
+    right: 6px;
     width: 41px;
     height: 59px;
     background-image:none;
@@ -476,7 +490,7 @@ header {
 }
 
 .swiper-button-prev {
-    left: 457px;
+    left: 450px;
 }
 
 .swiper-pagination-fraction {

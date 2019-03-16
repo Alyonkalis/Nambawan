@@ -32,12 +32,8 @@
 
 		<!-- header -->
 		<header>
-			<!-- Swiper -->
-			<!-- <div class="swiper-container"> -->
-			<!-- <div class="swiper-wrapper"> -->
-			<div class="slider-bg">
+			<div class="slider-bg slide">
 				<div class="container swiper-height">
-
 					<div class="header__top">
 						<a class="logo" href="#"><img src="img/logo-header.png" alt="Nambawan" width="122" height="54">
 						</a>
@@ -46,8 +42,6 @@
 							<button class="callback">Обратный звонок</button>
 						</div>
 					</div>
-
-
 					<p class="first-screen__description">Мы в Nambawan Trawel</p>
 					<h1 class="first-screen__title">
 						Организуем корпоративное<br>путешествие для Ваших<br> сотрудников и клиентов
@@ -68,49 +62,47 @@
 
 					<a class="we-know" href="#video">Мы в этом шарим!</a>
 				</div>
+			</div>
 
+			<div class="video rest" id="video">
+				<div class="container video-wrapper">
+					<div class="video__cover">
+						<div class="video__play">
+							<a data-fancybox="gallery" class="video__btn" href="https://www.youtube.com/watch?v=DpBWUv_91ho&feature=player_embedded_uturn"><img src="img/video-btn.png" alt="play" width="76" height="76"></a>
+							<p class="play__description">
+								Как это работает
+							</p>
+						</div>
+						<img src="img/video-layer.jpg" alt="Video" width="640" height="778">
+					</div>
+					<div class="video__text">
+						<h2 class="video__title">
+							Только с нами<br> вы сможете знатно<br>угареть!
+						</h2>
+						<p class="video__description">
+							Гляньте наше чумовое видео, если не верите. Если хоти и вам такое же по итогу снимем — будет что вспомнить.
+						</p>
+						<ul class="advantages">
+							<li class="advantages__item">
+								<img src="img/icon-world.png" alt="world" width="75" height="75">
+								<p class="advantages__description">
+									Работаем в любой<br>
+									точке планеты
+								</p>
+							</li>
+							<li class="advantages__item">
+								<img src="img/icon-space.png" alt="space" width="77" height="82">
+								<p class="advantages__description">
+									Но если на Земле<br>все видели, то no problem...
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</header>
 
-		<div class="video" id="video">
-			<div class="container video-wrapper">
-				<div class="video__cover">
-					<div class="video__play">
-						<a data-fancybox="gallery" class="video__btn" href="https://www.youtube.com/watch?time_continue=4&v=_sI_Ps7JSEk"><img src="img/video-btn.png" alt="play" width="76" height="76"></a>
-						<p class="play__description">
-							Как это работает
-						</p>
-					</div>
-					<img src="img/video-layer.jpg" alt="Video" width="640" height="778">
-				</div>
-				<div class="video__text">
-					<h2 class="video__title">
-						Только с нами<br> вы сможете знатно<br>угареть!
-					</h2>
-					<p class="video__description">
-						Гляньте наше чумовое видео, если не верите. Если хоти и вам такое же по итогу снимем — будет что вспомнить.
-					</p>
-					<ul class="advantages">
-						<li class="advantages__item">
-							<img src="img/icon-world.png" alt="world" width="75" height="75">
-							<p class="advantages__description">
-								Работаем в любой<br>
-								точке планеты
-							</p>
-						</li>
-						<li class="advantages__item">
-							<img src="img/icon-space.png" alt="space" width="77" height="82">
-							<p class="advantages__description">
-								Но если на Земле<br>все видели, то no problem...
-							</p>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<!-- Add Pagination -->
-			<!-- <div class="swiper-pagination"></div> -->
-		</div>
+		
 
 
 		<section class="it-was">
@@ -260,6 +252,7 @@
 		</div>		
 	</footer>
 
+	<script src="js/main.js"></script>
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/swiper.min.js"></script>
